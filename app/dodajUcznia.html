@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="./rysunki/comp.ico">   
+        <meta charset="utf-8">
+        <title>Baza pytań egzaminu zawodowego teoretycznego</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style> @import url("./style/styl.css"); </style> 
+    </head>
+    <body>
+        <div id="pytania">
+            <form method="POST" action="nowyUczen.php"> 
+                <table>
+                    <tr><td>Imie</td><td><input type="text" name="imie"></td></tr>
+                    <tr><td>Nazwisko</td><td><input type="text" name="nazwisko"></td></tr>
+                    <tr><td>Zawód</td><td><input type="text" name="zawod"></td></tr>
+                    <tr><td>Login</td><td><input type="text" name="login"></td></tr>
+                    <tr><td>Hasło</td><td><input type="text" name="haslo"></td></tr>
+                </table>
+                <input type="submit" name="wyslij" value="Dodaj" class="info">
+            </form>
+        </div>
+        <button class="info"><a href="./uczniowie.php">Cofnij</a></button>
+    </body>
+</html>
+
