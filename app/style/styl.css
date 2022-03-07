@@ -1,0 +1,294 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 18px;
+}
+
+h1 {
+    color: black;
+    font-size: 49px;
+    font-family: "Monotype Corsiva";
+    text-align: center;
+}
+button.nastepne {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+}
+div#przyciski
+{
+    height: 100px;
+    width: 1050px;
+    margin-left: 150px;
+
+}
+label#kolejnePyt
+{
+    text-align: center;
+    padding: 10px;
+    width: 28px;
+    height: 28px;
+    background-color: wheat;
+    border: 1px black solid;
+    font-size: 18px;
+    margin: 1px;
+}
+
+button:hover
+{
+    background-color: lightcyan ;
+}
+
+footer, header
+{
+    font-size: small;
+    color: brown;
+    text-align: center;
+}
+h1, h2 
+{
+    text-align: center;
+}
+div.srodek
+{
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.srodek1
+{
+    font-size: 16px;
+    text-align: center;
+    color:black;
+    display: block;
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.srodek2
+{
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    display: block;
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    block-size: auto;
+    font-size: 16px;
+    position: relative;
+    left: 150px;
+}
+label {
+    width: 300px;
+    height: 20px;
+    color: black;
+    border: 1px black solid;
+    background-color: aqua;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 18px;
+    margin: 2px;
+    margin-left: 250px;
+    border-radius: 10px;
+    display: inline-block;
+}
+label.odp {
+    background-color: azure;
+    margin-left: 150px;
+    width: 1000px;
+    height: 30px;
+    color: black;
+    border: 2px black solid;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    padding: 20px;
+    left: 150px;
+    display: inline-block;
+}
+label.odp1 {
+    background-color: azure;
+    margin-left: 150px;
+    width: 1000px;
+    height: 30px;
+    color: black;
+    border: 2px black solid;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    padding: 20px;
+    left: 150px;
+    display: inline-block;
+}
+label.odp:hover
+{
+    background-color: rgb(208, 241, 235);
+    
+}
+label.check
+{
+    background-color: rgb(99, 170, 241);
+    margin-left: 150px;
+    width: 1000px;
+    height: 30px;
+    color: black;
+    border: 2px black solid;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: left;
+    padding: 20px;
+    left: 150px;
+    display: inline-block;
+}
+p.pyt{
+    margin-left: 0px;
+    width: 1000px;
+    height: auto;
+    color: black;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px black solid;
+    background-color: white;
+    font-size: 100%;
+    text-align: left;
+    padding: 20px;
+    left: 150px;
+    position: relative;
+    line-height: 25px;
+    border-radius: 10px;
+    display: inline-block;
+}
+button.odp:hover
+{
+    background-color: rgb(153, 255, 235);
+    font-size: 110%;
+}
+img {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 150px;
+    border-style: solid;
+    border-color: black;
+}
+div p.pytania{
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+    clear: left;
+    float: left;
+}
+button.nastepne {
+    height: 50px;
+    width: 150px;
+    background-color: white;
+}
+button.nastepne:hover{
+    background-color: rgb(153, 255, 235);
+}
+table.pytania
+{
+    font-size: 16px;
+    left: 0px;
+    position: left;
+    clear: left;
+    float: left;
+}
+input[type=text]
+{
+    width: 1100px;
+    font-size: 16px;
+}
+a, label a, button a{
+    text-decoration: none;
+}
+div.zegar
+{
+    left: 200px;
+    width: 500px;
+    height: 20px;
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+input.loguj
+{
+    width: 250px;
+    height: 30px;
+    font-size: 16px;
+
+}
+table.loguj
+{
+    left: 500px;
+    top: 50px;
+}
+button.info {
+    background-color: aqua;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-style: line;
+    font-weight: bold;
+}
+button.back{
+    background-color: aqua;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-style: line;
+    margin: 5px;
+    font-weight: bold;
+
+}
+input[type=submit].info {
+    background-color: aqua;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: aqua;
+    border-style: line;
+    font-weight: bold;
+}
+input[type=submit].end {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: green;
+    border-style: line;
+    font-size: 16px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+button.back a:active, button.back a:link, button.back a:visited {
+    color: black;
+    font-weight: bold;
+}
+button.info a:active, button.info a:link, button.info a:visited {
+    color: black;
+    font-weight: bold;
+}
+label a {
+    color: black;
+}
+td a {
+    color: blue;
+}
+table tr td {
+    font-size: 16px;
+}
