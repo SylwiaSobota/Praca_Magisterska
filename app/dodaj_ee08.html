@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type="image/x-icon" href="./rysunki/comp.ico">   
+        <meta charset="utf-8">
+        <title>Baza pytań egzaminu zawodowego teoretycznego</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style> @import url("./style/styl.css"); </style> 
+    </head>
+    <body>
+        <b style='font-size:18;color:red;'>Pamiętaj aby przekazać pliki rysunkowe przekazać głównemu administratorowi do przesłania na serwer!
+        Nazwa musi być zgodna z podaną przez Ciebie w polu obrazek!</b>
+        <div id="pytania">
+            <form method="POST" action="dodajPyt_ee08.php"> 
+                <table>
+                    <tr><td>Pytanie</td><td><input type="text" name="pytanie"></td></tr>
+                    <tr><td>Odpowiedź A</td><td><input type="text" name="odpA"></td></tr>
+                    <tr><td>Odpowiedź B </td><td><input type="text" name="odpB"></td></tr>
+                    <tr><td>Odpowiedź C </td><td><input type="text" name="odpC"></td></tr>
+                    <tr><td>Odpowiedź D </td><td><input type="text" name="odpD"></td></tr>
+                    <tr><td>Obrazek </td><td><input type="text" name="obrazek"></td></tr>
+                    <tr><td>Poprawna odpowiedź</td><td> <input type="text" name="poprawna"></td></tr>
+                    <tr><td><input type="submit" name="wyslij" value="Wstaw" class="info"></td></tr>
+                </table>
+            </form>
+            <button class="info"><a href="./admin.php">Powrót</a></button>
+        </div>
+    </body>
+</html>
